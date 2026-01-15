@@ -1,0 +1,12 @@
+---
+- name: Verificar o tempo de atividade do servidor
+  hosts: servers
+
+  tasks:
+    - name: Verificar o tempo de atividade
+      command: uptime
+      register: uptime_out
+
+    - name: Exibir resultado
+      debug:
+        var: uptime_out.stdout

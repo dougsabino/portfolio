@@ -1,0 +1,14 @@
+services:
+  jellyfin:
+    image: jellyfin/jellyfin
+    container_name: jellyfin
+    network_mode: 'host'
+    volumes:
+      - /home/user/jellyfin/config:/config
+      - /home/user/jellyfin/cache:/cache
+      - /home/user/media/filmes:/media/filmes
+      - /home/user/media/séries:/media/séries
+    restart: 'unless-stopped'
+    # Optional - may be necessary for docker healthcheck to pass if running in host network mode
+    extra_hosts:
+      - 'host.docker.internal:host-gateway'
