@@ -29,7 +29,7 @@ Automação:
 - Shell script para criar a imagem a partir do Dockerfile
 
 ## Python
-- Scripts com tratamento de listas, dicionários, set e tratamento de arquivos
+- Scripts com tratamento de listas, dicionários, set e manipulação de arquivos
 
 ## Shell script
 - Exemplo de um gerenciador de serviços para linux
