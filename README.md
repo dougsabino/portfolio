@@ -15,7 +15,7 @@ Meu portfólio com scripts testados, que desenvolvi com ajuda dos cursos que fiz
 - Manifesto do docker compose para rodar a aplicação Jellyfin
 
 Documentação oficial:
-(https://jellyfin.org/docs/general/installation/container/)
+https://jellyfin.org/docs/general/installation/container/
 
 ## Dockerfile
 - Dockerfile para criar uma imagem de container do nginx
